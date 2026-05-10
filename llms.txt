@@ -1,0 +1,51 @@
+# Geotechnik — Herne
+
+> Geotechnical engineering services in Herne, Deutschland.
+
+## Services
+- [Anker](https://herne.baugrundgutachten1.de/anker/)
+- [Atterberg Grenzen](https://herne.baugrundgutachten1.de/atterberg-grenzen/)
+- [Aushub](https://herne.baugrundgutachten1.de/aushub/)
+- [Aushub Monitoring](https://herne.baugrundgutachten1.de/aushub-monitoring/)
+- [Bodenplatten](https://herne.baugrundgutachten1.de/bodenplatten/)
+- [Bodenverbesserung](https://herne.baugrundgutachten1.de/bodenverbesserung/)
+- [Boschungsstabilitat](https://herne.baugrundgutachten1.de/boschungsstabilitat/)
+- [Cbr Strasse](https://herne.baugrundgutachten1.de/cbr-strasse/)
+- [Cpt Versuch](https://herne.baugrundgutachten1.de/cpt-versuch/)
+- [Erdbebenisolierung](https://herne.baugrundgutachten1.de/erdbebenisolierung/)
+- [Flexibler Belag](https://herne.baugrundgutachten1.de/flexibler-belag/)
+- [Fundamente](https://herne.baugrundgutachten1.de/fundamente/)
+- [Grundungen](https://herne.baugrundgutachten1.de/grundungen/)
+- [Hange](https://herne.baugrundgutachten1.de/hange/)
+- [In Situ Durchlassigkeit](https://herne.baugrundgutachten1.de/in-situ-durchlassigkeit/)
+- [Injektionen](https://herne.baugrundgutachten1.de/injektionen/)
+- [Korngrossenanalyse](https://herne.baugrundgutachten1.de/korngrossenanalyse/)
+- [Labor](https://herne.baugrundgutachten1.de/labor/)
+- [Labor In Situ](https://herne.baugrundgutachten1.de/labor-in-situ/)
+- [Masw](https://herne.baugrundgutachten1.de/masw/)
+- [Pfahle](https://herne.baugrundgutachten1.de/pfahle/)
+- [Proctor Versuche](https://herne.baugrundgutachten1.de/proctor-versuche/)
+- [Ruttelverdichtung](https://herne.baugrundgutachten1.de/ruttelverdichtung/)
+- [Sandkegel Dichte](https://herne.baugrundgutachten1.de/sandkegel-dichte/)
+- [Schottersaulen](https://herne.baugrundgutachten1.de/schottersaulen/)
+- [Schurfgruben](https://herne.baugrundgutachten1.de/schurfgruben/)
+- [Seismik](https://herne.baugrundgutachten1.de/seismik/)
+- [Seismische Mikrozonierung](https://herne.baugrundgutachten1.de/seismische-mikrozonierung/)
+- [Seismische Refraktion](https://herne.baugrundgutachten1.de/seismische-refraktion/)
+- [Spt Bohrung](https://herne.baugrundgutachten1.de/spt-bohrung/)
+- [Starrer Belag](https://herne.baugrundgutachten1.de/starrer-belag/)
+- [Strassenbau](https://herne.baugrundgutachten1.de/strassenbau/)
+- [Stutzmauern](https://herne.baugrundgutachten1.de/stutzmauern/)
+- [Tiefe Aushube](https://herne.baugrundgutachten1.de/tiefe-aushube/)
+- [Triaxialversuch](https://herne.baugrundgutachten1.de/triaxialversuch/)
+- [Untersuchung](https://herne.baugrundgutachten1.de/untersuchung/)
+- [Verflussigung](https://herne.baugrundgutachten1.de/verflussigung/)
+- [Weichbodentunnel](https://herne.baugrundgutachten1.de/weichbodentunnel/)
+- [Widerstand](https://herne.baugrundgutachten1.de/widerstand/)
+
+## Contact
+- Website: https://herne.baugrundgutachten1.de/
+
+## About
+This site provides geotechnical engineering services in Herne, Deutschland.
+Compliant with local and international standards (ASTM, ISO, country-specific norms).
