@@ -73,7 +73,24 @@ table th{background:#0C1B33;color:#FFF;text-align:left;padding:.7rem 1rem;font-s
 .cta-box-9403 p{color:rgba(255,255,255,.85);max-width:none;text-align:center;margin:0}
 .cta-box-9403 a{color:#EAB308;font-weight:600}.hero h1{font-size:1.8rem}
 .cta-box-9403{background:#0C1B33;color:#FFF;padding:2.5rem 2rem;text-align:center;margin:3rem 0;border-radius:8px}
-details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></head><body>
+details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem 1.2rem;margin-bottom:.6rem;cursor:pointer}</style><link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#581C87"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><style id="minimal-fix-v5">
+/* Sticky para navbar específicos (NO header.hero) */
+.topbar, .navbar, .header-top, .main-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1010 !important;
+}
+header.hero, .hero { position: relative !important; }
+/* Dropdowns por encima del hero */
+.dd, .has-dd .dd, .nav-item .dd {
+  z-index: 1100 !important;
+}
+/* Leaflet contained */
+.leaflet-pane { z-index: 400 !important; }
+.leaflet-control { z-index: 800 !important; }
+.leaflet-container { z-index: 1 !important; }
+</style>
+</head><body>
 
 <nav class="navbar">
     <div class="logo-area">
@@ -81,7 +98,7 @@ details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem
         <div class="logo-text">Geotechnik</div>
     </div>
     <div class="nav">
-        <div class="nav-item has-dd"><a href="/untersuchung/" class="nav-cat-link" style="color:inherit;text-decoration:none">Erkundung</a> <span>▾</span><div class="dd"><a href="/cpt-versuch/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/labor-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ-Prüfungen</a> <span>▾</span><div class="dd"><a href="/sandkegel-dichte/">Felddichtebestimmung (Sandkegelverfahren)</a></div></div><div class="nav-item has-dd"><a href="/labor/" class="nav-cat-link" style="color:inherit;text-decoration:none">Labor</a> <span>▾</span><div class="dd"><a href="/korngrossenanalyse/">Korngrößenanalyse (Siebung + Hydrometer)</a><a href="/atterberg-grenzen/">Atterberg-Grenzen</a></div></div><div class="nav-item has-dd"><a href="/grundungen/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundamente</a> <span>▾</span><div class="dd"><a href="/pfahle/">Pfahlgründungsbemessung</a></div></div><div class="nav-item has-dd"><a href="/hange/" class="nav-cat-link" style="color:inherit;text-decoration:none">Hänge & Wände</a> <span>▾</span><div class="dd"><a href="/boschungsstabilitat/">Böschungsstabilitätsanalyse</a><a href="/anker/">Aktive/passive Verankerungsbemessung</a><a href="/stutzmauern/">Stützwandbemessung</a></div></div><div class="nav-item has-dd"><a href="/bodenverbesserung/" class="nav-cat-link" style="color:inherit;text-decoration:none">Bodenverbesserung</a> <span>▾</span><div class="dd"><a href="/schottersaulen/">Bemessung von Schottersäulen (Stone Columns)</a><a href="/ruttelverdichtung/">Bemessung der Rütteldruckverdichtung</a></div></div><div class="nav-item has-dd"><a href="/aushub/" class="nav-cat-link" style="color:inherit;text-decoration:none">Untertagebau</a> <span>▾</span><div class="dd"><a href="/weichbodentunnel/">Geotechnische Analyse für Tunnel in weichem Boden</a><a href="/tiefe-aushube/">Geotechnische Bemessung tiefer Baugruben</a><a href="/aushub-monitoring/">Geotechnische Baugrubenüberwachung</a></div></div><div class="nav-item has-dd"><a href="/strassenbau/" class="nav-cat-link" style="color:inherit;text-decoration:none">Straßenbaugeotechnik</a> <span>▾</span><div class="dd"><a href="/flexibler-belag/">Bemessung flexibler Fahrbahnen</a><a href="/starrer-belag/">Bemessung starrer Fahrbahnen</a><a href="/cbr-strasse/">CBR-Studie für Straßenentwurf</a></div></div><div class="nav-item has-dd"><a href="/seismik/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismik</a> <span>▾</span><div class="dd"><a href="/verflussigung/">Bodenverflüssigungsanalyse</a><a href="/erdbebenisolierung/">Erdbebenisolationsbemessung</a><a href="/seismische-mikrozonierung/">Seismische Mikrozonierung</a></div></div>
+        <div class="nav-item has-dd"><a href="/untersuchung/" class="nav-cat-link" style="color:inherit;text-decoration:none">Erkundung</a> <span>▾</span><div class="dd"><a href="/cpt-versuch/">CPT (Cone Penetration Test)</a></div></div><div class="nav-item has-dd"><a href="/labor-in-situ/" class="nav-cat-link" style="color:inherit;text-decoration:none">In-Situ</a> <span>▾</span><div class="dd"><a href="/sandkegel-dichte/">Felddichtebestimmung (Sandkegelverfahren)</a></div></div><div class="nav-item has-dd"><a href="/labor/" class="nav-cat-link" style="color:inherit;text-decoration:none">Labor</a> <span>▾</span><div class="dd"><a href="/korngrossenanalyse/">Korngrößenanalyse (Siebung + Hydrometer)</a><a href="/atterberg-grenzen/">Atterberg-Grenzen</a></div></div><div class="nav-item has-dd"><a href="/grundungen/" class="nav-cat-link" style="color:inherit;text-decoration:none">Fundamente</a> <span>▾</span><div class="dd"><a href="/pfahle/">Pfahlgründungsbemessung</a></div></div><div class="nav-item has-dd"><a href="/hange/" class="nav-cat-link" style="color:inherit;text-decoration:none">Hänge</a> <span>▾</span><div class="dd"><a href="/boschungsstabilitat/">Böschungsstabilitätsanalyse</a><a href="/anker/">Aktive/passive Verankerungsbemessung</a><a href="/stutzmauern/">Stützwandbemessung</a></div></div><div class="nav-item has-dd"><a href="/Bodenverb./" class="nav-cat-link" style="color:inherit;text-decoration:none">Bodenverb.</a> <span>▾</span><div class="dd"><a href="/schottersaulen/">Bemessung von Schottersäulen (Stone Columns)</a><a href="/ruttelverdichtung/">Bemessung der Rütteldruckverdichtung</a></div></div><div class="nav-item has-dd"><a href="/aushub/" class="nav-cat-link" style="color:inherit;text-decoration:none">Tunnelbau</a> <span>▾</span><div class="dd"><a href="/weichbodentunnel/">Geotechnische Analyse für Tunnel in weichem Boden</a><a href="/tiefe-aushube/">Geotechnische Bemessung tiefer Baugruben</a><a href="/aushub-monitoring/">Geotechnische Baugrubenüberwachung</a></div></div><div class="nav-item has-dd"><a href="/strassenbau/" class="nav-cat-link" style="color:inherit;text-decoration:none">Straßenbau</a> <span>▾</span><div class="dd"><a href="/flexibler-belag/">Bemessung flexibler Fahrbahnen</a><a href="/starrer-belag/">Bemessung starrer Fahrbahnen</a><a href="/cbr-strasse/">CBR-Studie für Straßenentwurf</a></div></div><div class="nav-item has-dd"><a href="/seismik/" class="nav-cat-link" style="color:inherit;text-decoration:none">Seismik</a> <span>▾</span><div class="dd"><a href="/verflussigung/">Bodenverflüssigungsanalyse</a><a href="/erdbebenisolierung/">Erdbebenisolationsbemessung</a><a href="/seismische-mikrozonierung/">Seismische Mikrozonierung</a></div></div>
     </div>
 </nav>
 
@@ -156,7 +173,7 @@ details{background:#FFF;border:1px solid #E5E7EB;border-radius:6px;padding:.9rem
         <link rel="stylesheet" href="/css/leaflet.css">
         <script src="/js/leaflet.js"></script>
         <script>
-        (function(){
+(function(){
           var m=L.map("map_8b13f0",{zoomControl:true,attributionControl:true}).setView([51.5380394,7.219985],11);
           L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}@2x.png",{
             attribution:"&copy; OpenStreetMap Mitwirkende &copy; CARTO",maxZoom:19,subdomains:"abcd"
